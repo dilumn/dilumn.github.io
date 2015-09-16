@@ -1,7 +1,7 @@
 # Site settings
 title: Dilum Navanjana Online
 email: dilumnavanjana@gmail.com
-description: > Dilum Navanjana Personal Blog
+description: > # Dilum Navanjana Personal Blog.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dilumn.github.io" # the base hostname & protocol for your site
 twitter_username: BC_Dilum
