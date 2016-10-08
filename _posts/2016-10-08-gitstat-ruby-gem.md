@@ -12,9 +12,11 @@ tags:
 Gitstat is a ruby gem for `git log` your repository to get commit history by number of lines for each Author in your repository
 
 ###Installation
+
 `$ gem install gitstat`
 
 ###Usage
+
 After installing the gem, go to your repository & just type `gitstat`. Then you will get the total number of added lines / deleted lines & commits by each author in the repository.
 
 {% highlight java %}
