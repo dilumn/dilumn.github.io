@@ -18,7 +18,7 @@ require 'celluloid/current'
 
 class Rocket
   include Celluloid
-  
+
   def launch
     for i in 0..5
       sleep 2
@@ -37,4 +37,4 @@ That `launch` method is running in the background.
 
 
 Cheers,
-BC_Dilum
+DilumN

@@ -81,4 +81,4 @@ pbcopy < ~/.ssh/id_rsa.pub
 Then go to [Github Settings SSH Page](https://github.com/settings/ssh) and add your copied SSH Key.
 
 Cheers,
-BC_Dilum
+DilumN

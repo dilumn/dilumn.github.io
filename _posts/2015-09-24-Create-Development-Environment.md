@@ -37,4 +37,4 @@ After that create a Ruby class as you want & `bundle exec ruby example.rb` (here
 It'll execute that Ruby class with including `Celluloid` from the local path. Then you can do any changes to the local `Celluloid` source & test them.
 
 Cheers,
-BC_Dilum
+DilumN
