@@ -9,7 +9,7 @@ tags:
 - ethereum
 ---
 
-I am using a Docker image that I optimized to use for ruby Development. Have a look at the [ethereum-rb](https://hub.docker.com/r/dilumn/ethereum-rb/) & also if you want to see the [Dockerfile](https://github.com/dilumn/ethereum-rb).
+I am using a Docker image that I optimized to use for ruby Development. The reason why I am using docker image is, if you are going to configure your machine to support Ethereum, you have to install various things. Have a look at the [ethereum-rb](https://hub.docker.com/r/dilumn/ethereum-rb/) & also if you want to see the [Dockerfile](https://github.com/dilumn/ethereum-rb).
 
 Everything I am describing here are in [ico-rb](https://github.com/dilumn/ico-rb) repository. To get started clone the repository. So it will be easy for you to understand better.
 

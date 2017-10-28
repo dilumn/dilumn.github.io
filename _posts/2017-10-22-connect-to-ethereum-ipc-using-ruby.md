@@ -9,7 +9,7 @@ tags:
 - ethereum
 ---
 
-To make things easier, I'm using the same ethereum-rb](https://hub.docker.com/r/dilumn/ethereum-rb/) docker image as my node. So I don't need to do any configurations in my personal computer to start Ethereum node. This is the docker-compose file I am using with the configurations.
+To make things easier, I'm using the same [ethereum-rb](https://hub.docker.com/r/dilumn/ethereum-rb/) docker image as my node. It is configured to run Ruby developments environment too. So I don't need to do any configurations in my personal computer to start Ethereum node. This is the docker-compose file I am using with the configurations.
 
 ---
 docker-compose.yml
@@ -23,12 +23,10 @@ docker-compose.yml
         volumes:
           - $HOME/.rinkeby:/root
           - ./app:/app
-        ports:
-          - "30303:30303"
-          - "30303:30303/udp"
-          - "8545:8545"
 
 ---
+
+So you can have a folder `app` which contains my Dockerfile & pass `command` parameters to the `ethereum` node. By passing `--rinkeby` you can connect to the `ethereum` rinkeby test network & skip the main network for testing. And also you should have a volume to store the blockchain in local otherwise all the syncronized blocks will be gone after you stop the docker container.
 
 And my Dockerfile is inside `app` folder.
 
@@ -40,12 +38,18 @@ Dockerfile
 
 ---
 
+You don't need to do any configuration in the Dockerfile because all the configurations are done in `docker-compose.yml`.
+
 Then you can build & run your ethereum node which is connecting to `rinkeby` network in my example.
 
     docker-compose build
     docker-compose -f docker-compose.yml up
 
-Because the Ethereum node is running inside a docker container, to connect using IPC you have to `bash` into the container.
+By running these two commands you can see the `ethereum` node start syncronizing the blocks & at first it will take few hours to finish the syncronization.
+
+There are two ways to connect to a `ethereum` node from outside. One is `IPC` & other one is using `HTTP`. I will write a separate blog post about the `HTTP` connection.
+
+Because the Ethereum node is running inside a docker container, to connect using IPC you have to `bash` into the container first.
 
     docker exec -it CONTAINERNAME bash
 
