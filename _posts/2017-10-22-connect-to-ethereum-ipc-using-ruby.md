@@ -6,6 +6,7 @@ date: 2017-10-22 21:00
 comments: true
 category : ethereum
 tags:
+- crypto
 - ethereum
 ---
 

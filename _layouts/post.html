@@ -2,14 +2,14 @@
 <html>
 <head>
 {% include head.html %}
-{% if site.dropcap %}<style type="text/css">@media only screen and (min-width:43.75em){.notepad-post-content div>p:first-child:first-letter{float:left;font-size:4.688rem;line-height:4.375rem;padding-top:.25rem;padding-right:.5rem;padding-left:.188rem;font-family:serif}}</style>{% endif %}
+<!-- {% if site.dropcap %}<style type="text/css">@media only screen and (min-width:43.75em){.notepad-post-content div>p:first-child:first-letter{float:left;font-size:4.688rem;line-height:4.375rem;padding-top:.25rem;padding-right:.5rem;padding-left:.188rem;font-family:serif}}</style>{% endif %} -->
 </head>
-<body class="post-template" itemscope itemtype="http://schema.org/WebPage">  
+<body class="post-template" itemscope itemtype="http://schema.org/WebPage">
 {% if page.imagefeature %}
         <main id="notepad-post-container" class="notepad-post-container intro-effect-sliced" role="main">
             <header class="notepad-post-header">
                 <div class="bg-img"></div>
-                
+
                 <div class="notepad-post-menu-header">
 {% else %}
         <main id="notepad-post-container-simple" class="notepad-post-container-simple" role="main">
@@ -20,7 +20,7 @@
                         <img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" />
                     </a>
 
-                <div class="notepad-blog-menu">      
+                <div class="notepad-blog-menu">
     <div class="notepad-mobile-menu show-for-small">
         <a href="#"><i class="fa fa-bars"></i></a>
     </div>
@@ -34,7 +34,7 @@
                 {% else %}
                     <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
                 {% endif %} </li>
-{% endfor %}            
+{% endfor %}
            <!-- <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li> -->
     </ul>
 
@@ -67,9 +67,9 @@
         <div class="cf"></div>
 {% if site.share %}{% include share.html %}{% endif %}
         <div class="cf"></div>
-        
-{% include signoff.html %} 
-        
+
+{% include signoff.html %}
+
         <div class="cf"></div>
         {% if site.disqus_shortname and page.comments == true %}
         <section class="notepad-disqus row">
@@ -82,8 +82,8 @@
 {% endif %}
         <div class="cf"></div>
 
-    {% include footer.html %} 
-</main>    
-{% include scripts.html %} 
+    {% include footer.html %}
+</main>
+{% include scripts.html %}
 </body>
 </html>
