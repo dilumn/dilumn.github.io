@@ -10,7 +10,7 @@ tags:
 - bitcoin
 ---
 
-To configure a computer to run a Bitcoin is not an easy this. There are many dependencies you have to install & there are several configurations to setup. I have been going through those troubles few times & decided to move Bitcoin node into a Docker environment. So everything I have to do is build the docker image & run it.
+To configure a computer to run a Bitcoin is not an easy task. There are many dependencies you have to install & there are several configurations to setup. I have been going through those troubles few times & decided to move Bitcoin node into a Docker environment. So everything I have to do is build the docker image & run it.
 
 If you want to have a look, the repository is here [bitcoin-rb](https://github.com/dilumn/bitcoin-rb).
 
