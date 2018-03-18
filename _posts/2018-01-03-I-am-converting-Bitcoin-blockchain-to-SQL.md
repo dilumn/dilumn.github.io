@@ -38,6 +38,5 @@ Here is that transaction on [blockexplorer](https://blockexplorer.com/tx/044e32f
 
 More will come soon once I complete converting all transactions.
 
-Cheers,
-
+Cheers,<br>
 DilumN
