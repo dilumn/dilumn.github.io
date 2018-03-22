@@ -10,7 +10,7 @@ tags:
 - bitcoin
 ---
 
-Few months ago I wrote a blog post about [I am converting Bitcoin blockchain to SQL](https://dilumn.github.io/bitcoin/2017/11/04/I-am-converting-Bitcoin-blockchain-to-SQL/). And gave several meet up talks about this crazy idea I had & the progress of the work.
+Few months ago I wrote a blog post about [I am converting Bitcoin blockchain to SQL](https://dilumn.github.io/bitcoin/2018/01/03/I-am-converting-Bitcoin-blockchain-to-SQL/). And gave several meet up talks about this crazy idea I had & the progress of the work.
 
 ### Ruby Meetup Singapore - Cryptocurrency & Ruby
 
