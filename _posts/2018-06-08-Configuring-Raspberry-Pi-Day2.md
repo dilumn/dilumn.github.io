@@ -19,7 +19,7 @@ And then I started creating my `buddy` project, which is going to be my personal
 
 Because my `buddy` project is based on Docker-Compose, I started installing Docker into my Pi. First few attempts got failed & started reading what was the problem & then found out that Docker is only supporting 64 bit ARM. Then only I realized the Raspbian OS I installed is a 32 bit one & still there are no official 64 bit OS released. All the forum discussions suggest that it will come soon, but no timeline yet.
 
-So because of that issue I faced, realized that `buddy` project need to develop outside Docker environment at least until there is a 64 bit OS release for Raspberry Pi.
+So because of that issue I faced, realized that `buddy` project need to develop outside Docker environment at least until there is a 64 bit OS release for Raspberry Pi. There are some other ways that you can use 64 bit OS with Raspberry Pi. I will leave that topic to a future blog post.
 
 So within next few days I will restructure `buddy` & will continue working on the `buddy` development because the Raspberry Pi configuration is almost done. One last thing, today is Friday & I am going to keep my Raspberry Pi turn on over the weekend & test the reliability of it.
 
