@@ -23,7 +23,7 @@ Then I managed to download & install Raspbian image from [here](https://www.rasp
 
 And as of basic things I created a new user for me & setup SSH Raspberry Pi with my personal laptop public SSH key. So no one else can SSH. But then I realized I can SSH in without any problem using the Ethernet port to Raspberry Pi, but not using wlan0. After searching for a solution I realized that I need to update my firmware. So after updating firmware I managed to SSH using wlan0 as well.
 
-For the day 01, that's all I managed to do. Hope to explore more & install more packages soon.
+For the day 01, that's all I managed to do. Hope to explore more & install more packages soon & face new challenges while playing with Pi.
 
 
 Cheers,<br>
