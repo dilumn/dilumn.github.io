@@ -86,7 +86,7 @@ Transaction on <a href="https://blockexplorer.com/tx/4991215e87ed06d6f83a30dcca8
 <a href="https://blockexplorer.com/tx/4991215e87ed06d6f83a30dcca806b6148a3c2d3ad4f114bff60e4f6e86dc5bf" target="_blank">blockexplorer</a>
 
 
-I am still thinking of a way to upload this database to somewhere that I can share it with you all. Will come back to you from another blog post with more details I found with the database.
+Sorry I couldn't find any place to upload this huge db for free. So I decided not to upload it. But I can share the Ruby script that I used to convert.
 
 
 Cheers,<br>
