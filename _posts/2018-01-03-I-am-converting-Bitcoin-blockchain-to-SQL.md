@@ -36,7 +36,7 @@ Here is that transaction on [blockexplorer](https://blockexplorer.com/tx/044e32f
 `blockexplorer.com` screenshot for that transaction.
 <img height="600" width="800" style='border:1px solid #000000' src="{{ site.url }}/images/bt_highest.png"/>
 
-More will come soon once I complete converting all transactions.
+More will come soon once I complete converting all transactions to one SQL table.
 
 Cheers,<br>
 DilumN
