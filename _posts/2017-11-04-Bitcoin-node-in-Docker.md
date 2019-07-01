@@ -94,6 +94,8 @@ After you create the `docker-compose.yml` file & Dockerfile inside `/app` direct
 
 That's it. You will see the Bitcoin node is starting up & start syncing the blocks.
 
+But you will face not enough space inside docker VM if you run Bitcoin live node inside a docker container. Because Bitcoin live is more than 200GB. But you can easily use this way to run Bitcoin testnet for testing purposes.
+
 
 Cheers,
 
