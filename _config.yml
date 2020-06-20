@@ -15,14 +15,12 @@ owner:
   avatar:         ameyjadiye.jpg
   email:          dilumnavanjana@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Programming is 1% knowledge, 2% ability and 97% getting the ability to work with the knowledge :)
+  description:    Seach Dilum Navanjana on Google
   # Social networking links used in footer. Update and remove as you like.
   twitter:        dilumn_
   facebook:       dilum.navanjana
   github:         dilumn
   instagram:      Dilumn
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/+BCDilum
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-67683562-1
@@ -47,7 +45,6 @@ timezone:    Asia/Calcutta
 future:      true
 highlighter: rouge
 markdown:    kramdown
-paginate:    5
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
@@ -69,6 +66,5 @@ kramdown:
 
 gems:
 - jemoji
-- jekyll-paginate
 - pygments.rb
 
