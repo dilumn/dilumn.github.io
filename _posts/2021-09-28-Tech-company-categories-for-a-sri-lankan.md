@@ -57,7 +57,7 @@ These are the categories of tech companies you are working on or you can work on
 
 
 ### Category D
-- FAANG companies fall under this category.
+- FAANG or FAAMG companies fall under this category.
 - You should be one of the top at what you are doing.
 - You should be very good at algorithms, data structures to get through the interviews.
 - You are competing with the best of the world talents in the job market.
@@ -66,10 +66,10 @@ These are the categories of tech companies you are working on or you can work on
 - You should be good at managing work load & stress.
 - Visa, relocation & everything will be taken care of by the company.
 - Don't need to take a risk as high as Category C.
-- There should be few cases of Sri Lankan graduates landed jobs in Category D as fresh graduates. But you need to be extreamly good.
+- There should be few cases of Sri Lankan graduates landing jobs in Category D as fresh graduates. But you need to be extremely good.
 
 
-It is easy to go down from your current category if you prefer. But you need to work a bit hard to go up in the category. It may require few months of interview preperation to level up your next job category. It is always easy to change jobs in the same category & get salary increments. But most of the time category above pays higher salaries.
+It is easy to go down from your current category if you prefer. But you need to work a bit hard to go up in the category. It may require a few months of interview preparation to level up your next job category. It is always easy to change jobs in the same category & get salary increments. But most of the time the category above pays higher salaries.
 
 
 <br>
